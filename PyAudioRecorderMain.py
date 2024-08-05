@@ -8,6 +8,7 @@ info = audio.get_device_info_by_index(i)
 if info["maxInputChannels"] > 0:
 print(f"Device ID {i}: {info['name']}")
 
+#pycharm commit
 audio.terminate()
 def record_audio(device_index, output_filename="output.wav"):
 # Audio parameters
