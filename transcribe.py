@@ -4,7 +4,7 @@ import json
 # Constants
 DEEPGRAM_API_URL = 'https://api.deepgram.com/v1/listen'
 
-with open('api_key.txt', 'r') as api_key_file:
+with open('api_key.txt', 'r') as api_key_file: #read from file
     API_KEY = api_key_file.read().strip()
 
 AUDIO_FILE_PATH = 'output.wav'  # Replace with your audio file name
